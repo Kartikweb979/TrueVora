@@ -12,6 +12,13 @@ const badgeVariants = cva(
         secondary: "border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80",
         destructive: "border-transparent bg-destructive text-destructive-foreground hover:bg-destructive/80",
         outline: "text-foreground",
+        // Trust Layer variants
+        verified: "border-transparent bg-verified text-verified-foreground",
+        caution: "border-transparent bg-caution text-caution-foreground",
+        flagged: "border-transparent bg-flagged text-flagged-foreground",
+        "verified-outline": "border-verified text-verified bg-verified/10",
+        "caution-outline": "border-caution text-caution bg-caution/10",
+        "flagged-outline": "border-flagged text-flagged bg-flagged/10",
       },
     },
     defaultVariants: {

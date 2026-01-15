@@ -11,9 +11,12 @@ type CategoryFilterProps = {
 export const CategoryFilter = ({ selected, onSelect }: CategoryFilterProps) => {
   const [showAll, setShowAll] = useState(false);
   
-  // Show first 8 categories by default, or all if showAll is true
-  const visibleCategories = showAll ? categories : categories.slice(0, 10);
-  const hiddenCount = categories.length - 10;
+  // Filter out "All" category
+  const filteredCategories = categories.filter(cat => cat !== 'All');
+  
+  // Show first 10 categories by default, or all if showAll is true
+  const visibleCategories = showAll ? filteredCategories : filteredCategories.slice(0, 10);
+  const hiddenCount = filteredCategories.length - 10;
 
   return (
     <div className="space-y-3">

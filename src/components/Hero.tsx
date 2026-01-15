@@ -1,50 +1,48 @@
-import { Shield, CheckCircle2, AlertTriangle } from 'lucide-react';
+import { Shield, Sparkles, Zap } from 'lucide-react';
 
 export const Hero = () => {
   return (
-    <section className="relative overflow-hidden bg-primary py-20 md:py-28">
-      {/* Subtle grid pattern */}
-      <div 
-        className="absolute inset-0 opacity-[0.03]"
-        style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-        }}
-      />
+    <section className="relative py-16 md:py-24 overflow-hidden">
+      {/* Animated background */}
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/20 via-background to-background" />
+      <div className="absolute top-20 left-1/4 w-72 h-72 bg-primary/30 rounded-full blur-[100px] animate-pulse" />
+      <div className="absolute bottom-20 right-1/4 w-72 h-72 bg-accent/20 rounded-full blur-[100px] animate-pulse" style={{ animationDelay: '1s' }} />
       
       <div className="container relative">
-        <div className="mx-auto max-w-3xl text-center">
-          {/* Shield Icon */}
-          <div className="mb-8 inline-flex items-center justify-center rounded-full bg-primary-foreground/10 p-4">
-            <Shield className="h-10 w-10 text-primary-foreground" strokeWidth={1.5} />
+        <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
+          {/* Badge */}
+          <div className="inline-flex items-center gap-2 rounded-full glass px-4 py-2 text-sm font-medium mb-8 animate-fade-in">
+            <Sparkles className="h-4 w-4 text-primary" />
+            <span className="text-muted-foreground">Independent • No Ads • No BS</span>
           </div>
-          
-          {/* Main headline */}
-          <h1 className="mb-6 text-primary-foreground">
-            The Free AI Tools
+
+          {/* Main heading */}
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 animate-slide-up">
+            The <span className="gradient-text">Free AI Tools</span>
             <br />
-            <span className="text-accent">Trust Layer</span>
+            <span className="text-foreground">Trust Layer</span>
           </h1>
-          
-          {/* Subheadline */}
-          <p className="mb-10 text-lg text-primary-foreground/80 md:text-xl">
-            An independent verification engine that filters out "fake-free" AI tools.
-            <br className="hidden md:block" />
-            Manual testing. Documented limits. Zero ads. Zero paid placements.
+
+          {/* Subheading */}
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-8 animate-slide-up stagger-1">
+            Cutting through the noise of "fake-free" AI tools. Every tool manually verified, 
+            with transparent usage limits and pricing history. 
+            <span className="text-primary font-medium"> No cap.</span>
           </p>
-          
-          {/* Trust indicators */}
-          <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-primary-foreground/70">
-            <div className="flex items-center gap-2">
-              <CheckCircle2 className="h-4 w-4 text-accent" />
-              <span>10 Tools Verified</span>
+
+          {/* Feature pills */}
+          <div className="flex flex-wrap justify-center gap-3 animate-slide-up stagger-2">
+            <div className="flex items-center gap-2 rounded-full bg-verified/10 border border-verified/30 px-4 py-2 text-sm">
+              <Shield className="h-4 w-4 text-verified" />
+              <span className="text-verified font-medium">Manually Verified</span>
             </div>
-            <div className="flex items-center gap-2">
-              <AlertTriangle className="h-4 w-4 text-caution" />
-              <span>Credit Card Traps Flagged</span>
+            <div className="flex items-center gap-2 rounded-full bg-primary/10 border border-primary/30 px-4 py-2 text-sm">
+              <Zap className="h-4 w-4 text-primary" />
+              <span className="text-primary font-medium">Real Usage Limits</span>
             </div>
-            <div className="flex items-center gap-2">
-              <Shield className="h-4 w-4" />
-              <span>100% Independent</span>
+            <div className="flex items-center gap-2 rounded-full bg-accent/10 border border-accent/30 px-4 py-2 text-sm">
+              <Sparkles className="h-4 w-4 text-accent" />
+              <span className="text-accent font-medium">Price History</span>
             </div>
           </div>
         </div>

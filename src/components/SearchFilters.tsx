@@ -1,4 +1,4 @@
-import { Search, CreditCard, Infinity } from 'lucide-react';
+import { Search, CreditCard, Infinity, Filter } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { cn } from '@/lib/utils';
 
@@ -20,47 +20,50 @@ export const SearchFilters = ({
   onUnlimitedUsageChange,
 }: SearchFiltersProps) => {
   return (
-    <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
+    <div className="space-y-4">
       {/* Search Input */}
-      <div className="relative flex-1">
-        <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+      <div className="relative max-w-xl mx-auto">
+        <Search className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
         <Input
           type="text"
-          placeholder="Search tools by name or description..."
+          placeholder="Search AI tools..."
           value={searchQuery}
           onChange={(e) => onSearchChange(e.target.value)}
-          className="pl-10 bg-secondary/50 border-border/50 focus-visible:ring-primary/20"
+          className="pl-12 pr-4 h-14 text-lg glass border-border/50 focus:border-primary/50 rounded-xl"
         />
       </div>
 
       {/* Filter Toggles */}
-      <div className="flex gap-2">
+      <div className="flex flex-wrap items-center justify-center gap-3">
+        <div className="flex items-center gap-2 text-sm text-muted-foreground">
+          <Filter className="h-4 w-4" />
+          <span>Filters:</span>
+        </div>
+        
         <button
           onClick={() => onNoCreditCardChange(!noCreditCard)}
           className={cn(
-            'flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium transition-all duration-200 border',
+            'flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium transition-all duration-200',
             noCreditCard
-              ? 'bg-verified/10 text-verified border-verified/30'
-              : 'bg-secondary text-muted-foreground border-transparent hover:bg-secondary/80'
+              ? 'bg-verified/20 text-verified border border-verified/50'
+              : 'glass text-muted-foreground hover:text-foreground border border-transparent'
           )}
         >
           <CreditCard className="h-4 w-4" />
-          <span className="hidden sm:inline">No Credit Card</span>
-          <span className="sm:hidden">No CC</span>
+          No Credit Card
         </button>
 
         <button
           onClick={() => onUnlimitedUsageChange(!unlimitedUsage)}
           className={cn(
-            'flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium transition-all duration-200 border',
+            'flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium transition-all duration-200',
             unlimitedUsage
-              ? 'bg-verified/10 text-verified border-verified/30'
-              : 'bg-secondary text-muted-foreground border-transparent hover:bg-secondary/80'
+              ? 'bg-primary/20 text-primary border border-primary/50'
+              : 'glass text-muted-foreground hover:text-foreground border border-transparent'
           )}
         >
           <Infinity className="h-4 w-4" />
-          <span className="hidden sm:inline">Unlimited Usage</span>
-          <span className="sm:hidden">Unlimited</span>
+          Unlimited Usage
         </button>
       </div>
     </div>

@@ -9,7 +9,7 @@ export const verifiedTools: Tool[] = [
     category: 'AI Assistants',
     url: 'https://chat.openai.com',
     status: 'verified',
-    lastTested: '2026-01-10',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Messages', limit: 'Unlimited', period: 'per day' },
@@ -28,7 +28,7 @@ export const verifiedTools: Tool[] = [
     category: 'AI Assistants',
     url: 'https://claude.ai',
     status: 'verified',
-    lastTested: '2026-01-09',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Messages', limit: '~20-30', period: 'per day' },
@@ -47,7 +47,7 @@ export const verifiedTools: Tool[] = [
     category: 'AI Assistants',
     url: 'https://gemini.google.com',
     status: 'verified',
-    lastTested: '2026-01-11',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Messages', limit: 'Unlimited', period: 'per day' },
@@ -66,7 +66,7 @@ export const verifiedTools: Tool[] = [
     category: 'AI Assistants',
     url: 'https://copilot.microsoft.com',
     status: 'verified',
-    lastTested: '2026-01-11',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Messages', limit: '30', period: 'per conversation' },
@@ -84,7 +84,7 @@ export const verifiedTools: Tool[] = [
     category: 'AI Assistants',
     url: 'https://poe.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Messages', limit: 'Varies by model', period: 'per day' },
@@ -102,7 +102,7 @@ export const verifiedTools: Tool[] = [
     category: 'AI Assistants',
     url: 'https://character.ai',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Messages', limit: 'Unlimited', period: 'always' },
@@ -120,7 +120,7 @@ export const verifiedTools: Tool[] = [
     category: 'AI Assistants',
     url: 'https://pi.ai',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Messages', limit: 'Unlimited', period: 'always' },
@@ -138,7 +138,7 @@ export const verifiedTools: Tool[] = [
     category: 'AI Assistants',
     url: 'https://chat.mistral.ai',
     status: 'verified',
-    lastTested: '2026-01-13',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Messages', limit: 'Unlimited', period: 'per day' },
@@ -156,7 +156,7 @@ export const verifiedTools: Tool[] = [
     category: 'AI Assistants',
     url: 'https://meta.ai',
     status: 'verified',
-    lastTested: '2026-01-13',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Messages', limit: 'Unlimited', period: 'always' },
@@ -174,7 +174,7 @@ export const verifiedTools: Tool[] = [
     category: 'AI Assistants',
     url: 'https://coral.cohere.com',
     status: 'verified',
-    lastTested: '2026-01-13',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Messages', limit: '100', period: 'per day' },
@@ -194,7 +194,7 @@ export const verifiedTools: Tool[] = [
     category: 'Code Assistants',
     url: 'https://github.com/features/copilot',
     status: 'verified',
-    lastTested: '2026-01-08',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Completions', limit: '2000', period: 'per month' },
@@ -212,7 +212,7 @@ export const verifiedTools: Tool[] = [
     category: 'Code Assistants',
     url: 'https://codeium.com',
     status: 'verified',
-    lastTested: '2026-01-11',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Completions', limit: 'Unlimited', period: 'always' },
@@ -230,7 +230,7 @@ export const verifiedTools: Tool[] = [
     category: 'Code Assistants',
     url: 'https://cursor.sh',
     status: 'verified',
-    lastTested: '2026-01-11',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Pro completions', limit: '2000', period: 'total' },
@@ -248,7 +248,7 @@ export const verifiedTools: Tool[] = [
     category: 'Code Assistants',
     url: 'https://v0.dev',
     status: 'verified',
-    lastTested: '2026-01-10',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Credits', limit: '200', period: 'per month' },
@@ -266,7 +266,7 @@ export const verifiedTools: Tool[] = [
     category: 'Code Assistants',
     url: 'https://replit.com',
     status: 'verified',
-    lastTested: '2026-01-10',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'AI completions', limit: 'Basic', period: 'always' },
@@ -284,7 +284,7 @@ export const verifiedTools: Tool[] = [
     category: 'Code Assistants',
     url: 'https://tabnine.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Completions', limit: 'Basic', period: 'always' },
@@ -302,7 +302,7 @@ export const verifiedTools: Tool[] = [
     category: 'Code Assistants',
     url: 'https://sourcegraph.com/cody',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Autocomplete', limit: 'Unlimited', period: 'always' },
@@ -320,7 +320,7 @@ export const verifiedTools: Tool[] = [
     category: 'Code Assistants',
     url: 'https://blackbox.ai',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Code generation', limit: 'Unlimited', period: 'always' },
@@ -338,7 +338,7 @@ export const verifiedTools: Tool[] = [
     category: 'Code Assistants',
     url: 'https://aider.chat',
     status: 'verified',
-    lastTested: '2026-01-13',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Usage', limit: 'Unlimited', period: 'always' },
@@ -356,7 +356,7 @@ export const verifiedTools: Tool[] = [
     category: 'Code Assistants',
     url: 'https://continue.dev',
     status: 'verified',
-    lastTested: '2026-01-13',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Usage', limit: 'Unlimited', period: 'always' },
@@ -376,7 +376,7 @@ export const verifiedTools: Tool[] = [
     category: 'Image Generation',
     url: 'https://ideogram.ai',
     status: 'verified',
-    lastTested: '2026-01-09',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Images', limit: '25', period: 'per day' },
@@ -393,7 +393,7 @@ export const verifiedTools: Tool[] = [
     category: 'Image Generation',
     url: 'https://leonardo.ai',
     status: 'verified',
-    lastTested: '2026-01-10',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Tokens', limit: '150', period: 'per day' },
@@ -411,7 +411,7 @@ export const verifiedTools: Tool[] = [
     category: 'Image Generation',
     url: 'https://playground.com',
     status: 'verified',
-    lastTested: '2026-01-09',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Images', limit: '500', period: 'per day' },
@@ -429,7 +429,7 @@ export const verifiedTools: Tool[] = [
     category: 'Image Generation',
     url: 'https://bing.com/create',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Boosts', limit: '15', period: 'per day' },
@@ -447,7 +447,7 @@ export const verifiedTools: Tool[] = [
     category: 'Image Generation',
     url: 'https://stablediffusionweb.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Images', limit: 'Unlimited', period: 'always' },
@@ -465,7 +465,7 @@ export const verifiedTools: Tool[] = [
     category: 'Image Generation',
     url: 'https://pixlr.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'AI features', limit: '10', period: 'per day' },
@@ -483,7 +483,7 @@ export const verifiedTools: Tool[] = [
     category: 'Image Generation',
     url: 'https://craiyon.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Images', limit: 'Unlimited', period: 'always' },
@@ -501,7 +501,7 @@ export const verifiedTools: Tool[] = [
     category: 'Image Generation',
     url: 'https://nightcafe.studio',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Credits', limit: '5', period: 'per day' },
@@ -519,7 +519,7 @@ export const verifiedTools: Tool[] = [
     category: 'Image Generation',
     url: 'https://seaart.ai',
     status: 'verified',
-    lastTested: '2026-01-13',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Credits', limit: '150', period: 'per day' },
@@ -537,7 +537,7 @@ export const verifiedTools: Tool[] = [
     category: 'Image Generation',
     url: 'https://tensor.art',
     status: 'verified',
-    lastTested: '2026-01-13',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Generations', limit: '100', period: 'per day' },
@@ -555,7 +555,7 @@ export const verifiedTools: Tool[] = [
     category: 'Image Generation',
     url: 'https://dreamstudio.ai',
     status: 'caution',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Credits', limit: '25', period: 'one-time' },
@@ -573,7 +573,7 @@ export const verifiedTools: Tool[] = [
     category: 'Image Generation',
     url: 'https://midjourney.com',
     status: 'flagged',
-    lastTested: '2026-01-11',
+    lastTested: '2026-01-17',
     requiresCreditCard: true,
     usageLimits: [
       { metric: 'Free tier', limit: 'None', period: 'N/A' },
@@ -592,7 +592,7 @@ export const verifiedTools: Tool[] = [
     category: 'Video Generation',
     url: 'https://pika.art',
     status: 'verified',
-    lastTested: '2026-01-11',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Credits', limit: '150', period: 'per day' },
@@ -610,7 +610,7 @@ export const verifiedTools: Tool[] = [
     category: 'Video Generation',
     url: 'https://runwayml.com',
     status: 'caution',
-    lastTested: '2026-01-10',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Credits', limit: '125', period: 'one-time' },
@@ -628,7 +628,7 @@ export const verifiedTools: Tool[] = [
     category: 'Video Generation',
     url: 'https://lumalabs.ai/dream-machine',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Generations', limit: '30', period: 'per month' },
@@ -646,7 +646,7 @@ export const verifiedTools: Tool[] = [
     category: 'Video Generation',
     url: 'https://kaiber.ai',
     status: 'caution',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Credits', limit: '30', period: 'one-time' },
@@ -664,7 +664,7 @@ export const verifiedTools: Tool[] = [
     category: 'Video Generation',
     url: 'https://heygen.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Credits', limit: '1', period: 'one-time' },
@@ -682,7 +682,7 @@ export const verifiedTools: Tool[] = [
     category: 'Video Generation',
     url: 'https://synthesia.io',
     status: 'caution',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Demo', limit: '1 video', period: 'one-time' },
@@ -700,7 +700,7 @@ export const verifiedTools: Tool[] = [
     category: 'Video Generation',
     url: 'https://kapwing.com',
     status: 'verified',
-    lastTested: '2026-01-13',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Exports', limit: '3', period: 'per month' },
@@ -718,7 +718,7 @@ export const verifiedTools: Tool[] = [
     category: 'Video Generation',
     url: 'https://invideo.io',
     status: 'verified',
-    lastTested: '2026-01-13',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Exports', limit: '4', period: 'per week' },
@@ -738,7 +738,7 @@ export const verifiedTools: Tool[] = [
     category: 'Audio Generation',
     url: 'https://elevenlabs.io',
     status: 'verified',
-    lastTested: '2026-01-10',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Characters', limit: '10,000', period: 'per month' },
@@ -756,7 +756,7 @@ export const verifiedTools: Tool[] = [
     category: 'Audio Generation',
     url: 'https://suno.ai',
     status: 'verified',
-    lastTested: '2026-01-11',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Credits', limit: '50', period: 'per day' },
@@ -774,7 +774,7 @@ export const verifiedTools: Tool[] = [
     category: 'Audio Generation',
     url: 'https://udio.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Songs', limit: '10', period: 'per month' },
@@ -792,7 +792,7 @@ export const verifiedTools: Tool[] = [
     category: 'Audio Generation',
     url: 'https://mubert.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Tracks', limit: '25', period: 'per month' },
@@ -810,7 +810,7 @@ export const verifiedTools: Tool[] = [
     category: 'Audio Generation',
     url: 'https://speechify.com',
     status: 'caution',
-    lastTested: '2026-01-08',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Listening', limit: '30 minutes', period: 'per month' },
@@ -827,7 +827,7 @@ export const verifiedTools: Tool[] = [
     category: 'Audio Generation',
     url: 'https://naturalreaders.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Characters', limit: '5,000', period: 'per day' },
@@ -845,7 +845,7 @@ export const verifiedTools: Tool[] = [
     category: 'Audio Generation',
     url: 'https://voicemod.net',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Voices', limit: '6 free', period: 'rotating' },
@@ -863,7 +863,7 @@ export const verifiedTools: Tool[] = [
     category: 'Audio Generation',
     url: 'https://soundraw.io',
     status: 'caution',
-    lastTested: '2026-01-13',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Downloads', limit: '1', period: 'per day' },
@@ -883,7 +883,7 @@ export const verifiedTools: Tool[] = [
     category: 'Writing Tools',
     url: 'https://grammarly.com',
     status: 'verified',
-    lastTested: '2026-01-11',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Grammar checks', limit: 'Unlimited', period: 'always' },
@@ -901,7 +901,7 @@ export const verifiedTools: Tool[] = [
     category: 'Writing Tools',
     url: 'https://copy.ai',
     status: 'verified',
-    lastTested: '2026-01-10',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Words', limit: '2,000', period: 'per month' },
@@ -918,7 +918,7 @@ export const verifiedTools: Tool[] = [
     category: 'Writing Tools',
     url: 'https://writesonic.com',
     status: 'caution',
-    lastTested: '2026-01-08',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Words', limit: '10,000', period: 'per month' },
@@ -935,7 +935,7 @@ export const verifiedTools: Tool[] = [
     category: 'Writing Tools',
     url: 'https://quillbot.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Paraphrasing', limit: '125 words', period: 'per use' },
@@ -953,7 +953,7 @@ export const verifiedTools: Tool[] = [
     category: 'Writing Tools',
     url: 'https://rytr.me',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Characters', limit: '10,000', period: 'per month' },
@@ -971,7 +971,7 @@ export const verifiedTools: Tool[] = [
     category: 'Writing Tools',
     url: 'https://notion.so',
     status: 'flagged',
-    lastTested: '2026-01-06',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'AI responses', limit: '20', period: 'total' },
@@ -988,7 +988,7 @@ export const verifiedTools: Tool[] = [
     category: 'Writing Tools',
     url: 'https://jasper.ai',
     status: 'flagged',
-    lastTested: '2026-01-07',
+    lastTested: '2026-01-17',
     requiresCreditCard: true,
     usageLimits: [
       { metric: 'Trial', limit: '7 days', period: 'one-time' },
@@ -1005,7 +1005,7 @@ export const verifiedTools: Tool[] = [
     category: 'Writing Tools',
     url: 'https://sudowrite.com',
     status: 'caution',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Words', limit: '5,000', period: 'one-time' },
@@ -1022,7 +1022,7 @@ export const verifiedTools: Tool[] = [
     category: 'Writing Tools',
     url: 'https://wordtune.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Rewrites', limit: '10', period: 'per day' },
@@ -1040,7 +1040,7 @@ export const verifiedTools: Tool[] = [
     category: 'Writing Tools',
     url: 'https://textcortex.com',
     status: 'verified',
-    lastTested: '2026-01-13',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Creations', limit: '20', period: 'per day' },
@@ -1060,7 +1060,7 @@ export const verifiedTools: Tool[] = [
     category: 'AI Search',
     url: 'https://perplexity.ai',
     status: 'verified',
-    lastTested: '2026-01-10',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Quick searches', limit: 'Unlimited', period: 'per day' },
@@ -1077,7 +1077,7 @@ export const verifiedTools: Tool[] = [
     category: 'AI Search',
     url: 'https://phind.com',
     status: 'verified',
-    lastTested: '2026-01-10',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Searches', limit: 'Unlimited', period: 'per day' },
@@ -1094,7 +1094,7 @@ export const verifiedTools: Tool[] = [
     category: 'AI Search',
     url: 'https://you.com',
     status: 'verified',
-    lastTested: '2026-01-09',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Smart searches', limit: '10', period: 'per day' },
@@ -1111,7 +1111,7 @@ export const verifiedTools: Tool[] = [
     category: 'AI Search',
     url: 'https://exa.ai',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Searches', limit: '1000', period: 'per month' },
@@ -1128,7 +1128,7 @@ export const verifiedTools: Tool[] = [
     category: 'AI Search',
     url: 'https://consensus.app',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Searches', limit: '20', period: 'per month' },
@@ -1146,7 +1146,7 @@ export const verifiedTools: Tool[] = [
     category: 'AI Search',
     url: 'https://elicit.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Searches', limit: '5000', period: 'per month' },
@@ -1164,7 +1164,7 @@ export const verifiedTools: Tool[] = [
     category: 'AI Search',
     url: 'https://tavily.com',
     status: 'verified',
-    lastTested: '2026-01-13',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'API calls', limit: '1000', period: 'per month' },
@@ -1183,7 +1183,7 @@ export const verifiedTools: Tool[] = [
     category: 'ML Platforms',
     url: 'https://huggingface.co/spaces',
     status: 'verified',
-    lastTested: '2026-01-10',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Spaces', limit: 'Unlimited', period: 'always' },
@@ -1200,7 +1200,7 @@ export const verifiedTools: Tool[] = [
     category: 'ML Platforms',
     url: 'https://replicate.com',
     status: 'caution',
-    lastTested: '2026-01-07',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Credits', limit: '$5 free', period: 'one-time' },
@@ -1217,7 +1217,7 @@ export const verifiedTools: Tool[] = [
     category: 'ML Platforms',
     url: 'https://gradio.app',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Usage', limit: 'Unlimited', period: 'always' },
@@ -1235,7 +1235,7 @@ export const verifiedTools: Tool[] = [
     category: 'ML Platforms',
     url: 'https://streamlit.io',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Apps', limit: 'Unlimited', period: 'always' },
@@ -1253,7 +1253,7 @@ export const verifiedTools: Tool[] = [
     category: 'ML Platforms',
     url: 'https://colab.research.google.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'GPU', limit: 'Limited hours', period: 'per day' },
@@ -1271,7 +1271,7 @@ export const verifiedTools: Tool[] = [
     category: 'ML Platforms',
     url: 'https://kaggle.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'GPU', limit: '30 hours', period: 'per week' },
@@ -1289,7 +1289,7 @@ export const verifiedTools: Tool[] = [
     category: 'ML Platforms',
     url: 'https://paperspace.com/gradient',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Free GPU', limit: '6 hours', period: 'per day' },
@@ -1309,7 +1309,7 @@ export const verifiedTools: Tool[] = [
     category: 'Productivity',
     url: 'https://gamma.app',
     status: 'verified',
-    lastTested: '2026-01-08',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'AI credits', limit: '400', period: 'one-time' },
@@ -1326,7 +1326,7 @@ export const verifiedTools: Tool[] = [
     category: 'Productivity',
     url: 'https://canva.com',
     status: 'verified',
-    lastTested: '2026-01-11',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Magic Write', limit: '50 uses', period: 'total' },
@@ -1344,7 +1344,7 @@ export const verifiedTools: Tool[] = [
     category: 'Productivity',
     url: 'https://tome.app',
     status: 'verified',
-    lastTested: '2026-01-09',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'AI credits', limit: '500', period: 'one-time' },
@@ -1361,7 +1361,7 @@ export const verifiedTools: Tool[] = [
     category: 'Productivity',
     url: 'https://otter.ai',
     status: 'verified',
-    lastTested: '2026-01-10',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Minutes', limit: '300', period: 'per month' },
@@ -1378,7 +1378,7 @@ export const verifiedTools: Tool[] = [
     category: 'Productivity',
     url: 'https://beautiful.ai',
     status: 'caution',
-    lastTested: '2026-01-07',
+    lastTested: '2026-01-17',
     requiresCreditCard: true,
     usageLimits: [
       { metric: 'Presentations', limit: 'Unlimited', period: 'always' },
@@ -1396,7 +1396,7 @@ export const verifiedTools: Tool[] = [
     category: 'Productivity',
     url: 'https://fireflies.ai',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Transcription', limit: '800 min', period: 'per month' },
@@ -1414,7 +1414,7 @@ export const verifiedTools: Tool[] = [
     category: 'Productivity',
     url: 'https://krisp.ai',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Minutes', limit: '60', period: 'per day' },
@@ -1431,7 +1431,7 @@ export const verifiedTools: Tool[] = [
     category: 'Productivity',
     url: 'https://mem.ai',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Notes', limit: 'Unlimited', period: 'always' },
@@ -1449,7 +1449,7 @@ export const verifiedTools: Tool[] = [
     category: 'Productivity',
     url: 'https://reclaim.ai',
     status: 'verified',
-    lastTested: '2026-01-13',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Calendars', limit: '1', period: 'always' },
@@ -1467,7 +1467,7 @@ export const verifiedTools: Tool[] = [
     category: 'Productivity',
     url: 'https://usemotion.com',
     status: 'flagged',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: true,
     usageLimits: [
       { metric: 'Trial', limit: '7 days', period: 'one-time' },
@@ -1486,7 +1486,7 @@ export const verifiedTools: Tool[] = [
     category: 'Translation',
     url: 'https://deepl.com',
     status: 'verified',
-    lastTested: '2026-01-11',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Characters', limit: '5,000', period: 'per translation' },
@@ -1504,7 +1504,7 @@ export const verifiedTools: Tool[] = [
     category: 'Translation',
     url: 'https://translate.google.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Translations', limit: 'Unlimited', period: 'always' },
@@ -1522,7 +1522,7 @@ export const verifiedTools: Tool[] = [
     category: 'Translation',
     url: 'https://libretranslate.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'API calls', limit: 'Rate limited', period: 'always' },
@@ -1540,7 +1540,7 @@ export const verifiedTools: Tool[] = [
     category: 'Translation',
     url: 'https://papago.naver.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Characters', limit: '5,000', period: 'per translation' },
@@ -1557,7 +1557,7 @@ export const verifiedTools: Tool[] = [
     category: 'Translation',
     url: 'https://reverso.net',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Translations', limit: 'Unlimited', period: 'always' },
@@ -1576,7 +1576,7 @@ export const verifiedTools: Tool[] = [
     category: 'Data Analysis',
     url: 'https://julius.ai',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Messages', limit: '50', period: 'per month' },
@@ -1594,7 +1594,7 @@ export const verifiedTools: Tool[] = [
     category: 'Data Analysis',
     url: 'https://rows.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Rows', limit: '1,000', period: 'always' },
@@ -1612,7 +1612,7 @@ export const verifiedTools: Tool[] = [
     category: 'Data Analysis',
     url: 'https://obviously.ai',
     status: 'caution',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Predictions', limit: '1000', period: 'total' },
@@ -1630,7 +1630,7 @@ export const verifiedTools: Tool[] = [
     category: 'Data Analysis',
     url: 'https://akkio.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Predictions', limit: '50', period: 'per month' },
@@ -1648,7 +1648,7 @@ export const verifiedTools: Tool[] = [
     category: 'Data Analysis',
     url: 'https://community.databricks.com',
     status: 'verified',
-    lastTested: '2026-01-13',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Clusters', limit: '1', period: 'always' },
@@ -1668,7 +1668,7 @@ export const verifiedTools: Tool[] = [
     category: 'Chatbots',
     url: 'https://chatbase.co',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Messages', limit: '100', period: 'per month' },
@@ -1686,7 +1686,7 @@ export const verifiedTools: Tool[] = [
     category: 'Chatbots',
     url: 'https://botpress.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Messages', limit: '1000', period: 'per month' },
@@ -1704,7 +1704,7 @@ export const verifiedTools: Tool[] = [
     category: 'Chatbots',
     url: 'https://voiceflow.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Projects', limit: '2', period: 'always' },
@@ -1722,7 +1722,7 @@ export const verifiedTools: Tool[] = [
     category: 'Chatbots',
     url: 'https://landbot.io',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Chats', limit: '100', period: 'per month' },
@@ -1740,7 +1740,7 @@ export const verifiedTools: Tool[] = [
     category: 'Chatbots',
     url: 'https://tidio.com',
     status: 'verified',
-    lastTested: '2026-01-13',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Conversations', limit: '50', period: 'per month' },
@@ -1760,7 +1760,7 @@ export const verifiedTools: Tool[] = [
     category: 'Design Tools',
     url: 'https://figma.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Projects', limit: '3', period: 'always' },
@@ -1778,7 +1778,7 @@ export const verifiedTools: Tool[] = [
     category: 'Design Tools',
     url: 'https://uizard.io',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Projects', limit: '2', period: 'always' },
@@ -1796,7 +1796,7 @@ export const verifiedTools: Tool[] = [
     category: 'Design Tools',
     url: 'https://looka.com',
     status: 'caution',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Generations', limit: 'Unlimited', period: 'always' },
@@ -1814,7 +1814,7 @@ export const verifiedTools: Tool[] = [
     category: 'Design Tools',
     url: 'https://khroma.co',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Palettes', limit: 'Unlimited', period: 'always' },
@@ -1831,7 +1831,7 @@ export const verifiedTools: Tool[] = [
     category: 'Design Tools',
     url: 'https://remove.bg',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Images', limit: 'Unlimited', period: 'always' },
@@ -1849,7 +1849,7 @@ export const verifiedTools: Tool[] = [
     category: 'Design Tools',
     url: 'https://cleanup.pictures',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Images', limit: 'Unlimited', period: 'always' },
@@ -1869,7 +1869,7 @@ export const verifiedTools: Tool[] = [
     category: 'Research',
     url: 'https://semanticscholar.org',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Searches', limit: 'Unlimited', period: 'always' },
@@ -1887,7 +1887,7 @@ export const verifiedTools: Tool[] = [
     category: 'Research',
     url: 'https://connectedpapers.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Graphs', limit: '5', period: 'per month' },
@@ -1904,7 +1904,7 @@ export const verifiedTools: Tool[] = [
     category: 'Research',
     url: 'https://researchrabbit.ai',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Collections', limit: 'Unlimited', period: 'always' },
@@ -1922,7 +1922,7 @@ export const verifiedTools: Tool[] = [
     category: 'Research',
     url: 'https://scispace.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Questions', limit: '5', period: 'per day' },
@@ -1940,7 +1940,7 @@ export const verifiedTools: Tool[] = [
     category: 'Research',
     url: 'https://scite.ai',
     status: 'caution',
-    lastTested: '2026-01-13',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Reports', limit: '10', period: 'per month' },
@@ -1959,7 +1959,7 @@ export const verifiedTools: Tool[] = [
     category: 'Automation',
     url: 'https://make.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Operations', limit: '1000', period: 'per month' },
@@ -1977,7 +1977,7 @@ export const verifiedTools: Tool[] = [
     category: 'Automation',
     url: 'https://zapier.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Tasks', limit: '100', period: 'per month' },
@@ -1995,7 +1995,7 @@ export const verifiedTools: Tool[] = [
     category: 'Automation',
     url: 'https://n8n.io',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Self-hosted', limit: 'Unlimited', period: 'always' },
@@ -2013,7 +2013,7 @@ export const verifiedTools: Tool[] = [
     category: 'Automation',
     url: 'https://activepieces.com',
     status: 'verified',
-    lastTested: '2026-01-13',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Self-hosted', limit: 'Unlimited', period: 'always' },
@@ -2033,7 +2033,7 @@ export const verifiedTools: Tool[] = [
     category: '3D & AR',
     url: 'https://meshy.ai',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Credits', limit: '200', period: 'per month' },
@@ -2050,7 +2050,7 @@ export const verifiedTools: Tool[] = [
     category: '3D & AR',
     url: 'https://kaedim3d.com',
     status: 'caution',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Models', limit: '3', period: 'one-time' },
@@ -2067,7 +2067,7 @@ export const verifiedTools: Tool[] = [
     category: '3D & AR',
     url: 'https://lumalabs.ai/genie',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Generations', limit: '10', period: 'per month' },
@@ -2084,7 +2084,7 @@ export const verifiedTools: Tool[] = [
     category: '3D & AR',
     url: 'https://spline.design',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Projects', limit: 'Unlimited', period: 'always' },
@@ -2104,7 +2104,7 @@ export const verifiedTools: Tool[] = [
     category: 'Customer Support',
     url: 'https://intercom.com',
     status: 'flagged',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: true,
     usageLimits: [
       { metric: 'Trial', limit: '14 days', period: 'one-time' },
@@ -2121,7 +2121,7 @@ export const verifiedTools: Tool[] = [
     category: 'Customer Support',
     url: 'https://zendesk.com',
     status: 'flagged',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: true,
     usageLimits: [
       { metric: 'Trial', limit: '14 days', period: 'one-time' },
@@ -2138,7 +2138,7 @@ export const verifiedTools: Tool[] = [
     category: 'Customer Support',
     url: 'https://freshdesk.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Agents', limit: '10', period: 'always' },
@@ -2156,7 +2156,7 @@ export const verifiedTools: Tool[] = [
     category: 'Customer Support',
     url: 'https://crisp.chat',
     status: 'verified',
-    lastTested: '2026-01-13',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Seats', limit: '2', period: 'always' },
@@ -2176,7 +2176,7 @@ export const verifiedTools: Tool[] = [
     category: 'SEO',
     url: 'https://surferseo.com',
     status: 'flagged',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: true,
     usageLimits: [
       { metric: 'Trial', limit: '7 days', period: 'one-time' },
@@ -2193,7 +2193,7 @@ export const verifiedTools: Tool[] = [
     category: 'SEO',
     url: 'https://clearscope.io',
     status: 'flagged',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: true,
     usageLimits: [
       { metric: 'Free tier', limit: 'None', period: 'N/A' },
@@ -2210,7 +2210,7 @@ export const verifiedTools: Tool[] = [
     category: 'SEO',
     url: 'https://frase.io',
     status: 'caution',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Documents', limit: '1', period: 'one-time' },
@@ -2227,7 +2227,7 @@ export const verifiedTools: Tool[] = [
     category: 'SEO',
     url: 'https://neuronwriter.com',
     status: 'verified',
-    lastTested: '2026-01-13',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Analyses', limit: '2', period: 'per month' },
@@ -2246,7 +2246,7 @@ export const verifiedTools: Tool[] = [
     category: 'Email',
     url: 'https://mailchimp.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Contacts', limit: '500', period: 'always' },
@@ -2264,7 +2264,7 @@ export const verifiedTools: Tool[] = [
     category: 'Email',
     url: 'https://convertkit.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Subscribers', limit: '10,000', period: 'always' },
@@ -2282,7 +2282,7 @@ export const verifiedTools: Tool[] = [
     category: 'Email',
     url: 'https://beehiiv.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Subscribers', limit: '2,500', period: 'always' },
@@ -2299,7 +2299,7 @@ export const verifiedTools: Tool[] = [
     category: 'Email',
     url: 'https://smartwriter.ai',
     status: 'caution',
-    lastTested: '2026-01-13',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Emails', limit: '15', period: 'one-time' },
@@ -2318,7 +2318,7 @@ export const verifiedTools: Tool[] = [
     category: 'Social Media',
     url: 'https://buffer.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Channels', limit: '3', period: 'always' },
@@ -2336,7 +2336,7 @@ export const verifiedTools: Tool[] = [
     category: 'Social Media',
     url: 'https://hootsuite.com',
     status: 'caution',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Users', limit: '1', period: 'always' },
@@ -2354,7 +2354,7 @@ export const verifiedTools: Tool[] = [
     category: 'Social Media',
     url: 'https://later.com',
     status: 'verified',
-    lastTested: '2026-01-12',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Social sets', limit: '1', period: 'always' },
@@ -2372,7 +2372,7 @@ export const verifiedTools: Tool[] = [
     category: 'Social Media',
     url: 'https://predis.ai',
     status: 'verified',
-    lastTested: '2026-01-13',
+    lastTested: '2026-01-17',
     requiresCreditCard: false,
     usageLimits: [
       { metric: 'Posts', limit: '15', period: 'per month' },

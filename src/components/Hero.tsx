@@ -2,7 +2,7 @@ import { Shield, Sparkles, Zap } from 'lucide-react';
 
 export const Hero = () => {
   return (
-    <section className="relative py-16 md:py-24 overflow-hidden">
+    <section className="relative py-10 md:py-14 overflow-hidden">
       {/* Animated background */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/20 via-background to-background" />
       <div className="absolute top-20 left-1/4 w-72 h-72 bg-primary/30 rounded-full blur-[100px] animate-pulse" />

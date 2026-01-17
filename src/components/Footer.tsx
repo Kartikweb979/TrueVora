@@ -2,7 +2,7 @@ import { Shield, Github, Mail, Heart, Twitter } from 'lucide-react';
 
 export const Footer = () => {
   return (
-    <footer className="border-t border-border/50 bg-card/50 backdrop-blur-sm py-12">
+    <footer className="border-t border-border/50 bg-card/50 backdrop-blur-sm py-8">
       <div className="container">
         <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
           <div className="flex items-center gap-3">
@@ -48,17 +48,22 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-border/50 text-center">
+        <div className="mt-6 pt-6 border-t border-border/50 text-center">
           <p className="text-muted-foreground text-sm max-w-xl mx-auto">
             This platform accepts <span className="text-primary font-medium">no advertising</span>, affiliate payments, or paid placements.
-            <br />
-            Built with <Heart className="inline h-3 w-3 text-pink-500 mx-1" /> for developers and students who need honest answers.
+            Built with <Heart className="inline h-3 w-3 text-pink-500 mx-1" /> for developers and students.
           </p>
           
-          <div className="mt-6 flex flex-wrap justify-center gap-4 text-sm text-muted-foreground">
+          <div className="mt-4 flex flex-wrap justify-center gap-4 text-xs text-muted-foreground">
             <span>🔒 No tracking</span>
             <span>💜 No ads</span>
             <span>✨ No BS</span>
+          </div>
+          
+          <div className="mt-4 pt-4 border-t border-border/30">
+            <p className="text-xs text-muted-foreground/70">
+              Developed by <span className="font-medium text-foreground/80">KARTIK GUPTA</span>
+            </p>
           </div>
         </div>
       </div>

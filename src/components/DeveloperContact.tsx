@@ -7,12 +7,12 @@ export const DeveloperContact = () => {
   };
 
   return (
-    <section className="py-16 relative overflow-hidden">
+    <section className="py-8 relative overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-accent/5 to-primary/10" />
       
       <div className="container relative">
-        <div className="glass rounded-2xl p-8 md:p-12 text-center max-w-3xl mx-auto">
+        <div className="glass rounded-2xl p-6 md:p-8 text-center max-w-3xl mx-auto">
           <div className="inline-flex items-center gap-2 rounded-full bg-primary/20 px-4 py-2 text-sm font-medium text-primary mb-6">
             <Sparkles className="h-4 w-4" />
             For AI Tool Developers

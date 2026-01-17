@@ -44,37 +44,37 @@ export const Methodology = () => {
   ];
 
   return (
-    <section className="py-16">
+    <section className="py-10">
       <div className="container">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+        <div className="text-center mb-8">
+          <h2 className="text-2xl md:text-3xl font-bold mb-3">
             Our <span className="gradient-text">Methodology</span>
           </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-muted-foreground max-w-2xl mx-auto text-sm">
             We believe in radical transparency. Here's exactly how we verify and categorize each tool.
           </p>
         </div>
 
         {/* Status meanings */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
           {criteria.map((item) => (
             <div
               key={item.title}
-              className="glass rounded-xl p-6 text-center transition-all hover:scale-105"
+              className="glass rounded-xl p-4 text-center transition-all hover:scale-105"
             >
-              <div className={`inline-flex items-center justify-center w-12 h-12 rounded-xl ${item.bg} mb-4`}>
-                <item.icon className={`h-6 w-6 ${item.color}`} />
+              <div className={`inline-flex items-center justify-center w-10 h-10 rounded-xl ${item.bg} mb-3`}>
+                <item.icon className={`h-5 w-5 ${item.color}`} />
               </div>
-              <h3 className={`font-bold text-lg mb-2 ${item.color}`}>{item.title}</h3>
+              <h3 className={`font-bold text-base mb-1 ${item.color}`}>{item.title}</h3>
               <p className="text-muted-foreground text-sm">{item.description}</p>
             </div>
           ))}
         </div>
 
         {/* Process */}
-        <div className="glass rounded-2xl p-8">
-          <h3 className="text-xl font-bold mb-6 text-center">Our Process</h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="glass rounded-2xl p-6">
+          <h3 className="text-lg font-bold mb-4 text-center">Our Process</h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {process.map((item, index) => (
               <div key={item.title} className="flex items-start gap-4">
                 <div className="flex items-center justify-center w-10 h-10 rounded-full bg-primary/20 shrink-0">

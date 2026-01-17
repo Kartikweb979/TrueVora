@@ -1,4 +1,4 @@
-import { Shield, Github, Mail, Heart, Twitter } from 'lucide-react';
+import { Shield, Github, Mail, Heart, Twitter, Linkedin } from 'lucide-react';
 
 export const Footer = () => {
   return (
@@ -20,6 +20,15 @@ export const Footer = () => {
           </div>
 
           <div className="flex items-center gap-4">
+            <a
+              href="https://www.linkedin.com/in/kartik-gupta-0ba437377"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-lg bg-secondary/50 text-muted-foreground hover:text-foreground hover:bg-secondary transition-all"
+              aria-label="LinkedIn"
+            >
+              <Linkedin className="h-5 w-5" />
+            </a>
             <a
               href="https://github.com"
               target="_blank"

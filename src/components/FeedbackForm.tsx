@@ -35,9 +35,9 @@ export const FeedbackForm = () => {
   };
 
   return (
-    <section className="py-16">
+    <section className="py-8">
       <div className="container">
-        <div className="glass rounded-2xl p-8 md:p-12 max-w-2xl mx-auto">
+        <div className="glass rounded-2xl p-6 md:p-8 max-w-2xl mx-auto">
           {!isOpen ? (
             <div className="text-center">
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-accent/20 mb-6">

@@ -1,4 +1,4 @@
-import { Shield, Github, Mail, Heart, Twitter, Linkedin } from 'lucide-react';
+import { Shield, Mail, Heart, Linkedin } from 'lucide-react';
 
 export const Footer = () => {
   return (
@@ -28,24 +28,6 @@ export const Footer = () => {
               aria-label="LinkedIn"
             >
               <Linkedin className="h-5 w-5" />
-            </a>
-            <a
-              href="https://github.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2 rounded-lg bg-secondary/50 text-muted-foreground hover:text-foreground hover:bg-secondary transition-all"
-              aria-label="GitHub"
-            >
-              <Github className="h-5 w-5" />
-            </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2 rounded-lg bg-secondary/50 text-muted-foreground hover:text-foreground hover:bg-secondary transition-all"
-              aria-label="Twitter"
-            >
-              <Twitter className="h-5 w-5" />
             </a>
             <a
               href="mailto:kartikgupta.rke@gmail.com"

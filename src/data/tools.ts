@@ -2382,6 +2382,419 @@ export const verifiedTools: Tool[] = [
     ],
     notes: 'Good AI content generation.',
   },
+
+  // === PRESENTATIONS ===
+  {
+    id: 'gamma-app',
+    name: 'Gamma',
+    description: 'AI-powered presentations, docs, and webpages. Create stunning decks in seconds.',
+    category: 'Presentations',
+    url: 'https://gamma.app',
+    status: 'verified',
+    lastTested: '2026-02-06',
+    requiresCreditCard: false,
+    usageLimits: [
+      { metric: 'AI Credits', limit: '400', period: 'total' },
+      { metric: 'Exports', limit: 'Unlimited', period: 'always' },
+    ],
+    pricingHistory: [
+      { date: '2025-01-01', description: 'Free credits reduced from 500', type: 'negative' },
+    ],
+    notes: 'Best AI presentation tool. Credits refresh with referrals.',
+  },
+  {
+    id: 'beautiful-ai',
+    name: 'Beautiful.ai',
+    description: 'Smart presentation software with AI design assistance.',
+    category: 'Presentations',
+    url: 'https://beautiful.ai',
+    status: 'caution',
+    lastTested: '2026-02-06',
+    requiresCreditCard: false,
+    usageLimits: [
+      { metric: 'Presentations', limit: '3', period: 'total' },
+      { metric: 'AI features', limit: 'Limited', period: 'always' },
+    ],
+    pricingHistory: [
+      { date: '2025-06-01', description: 'Free tier limited to 3 decks', type: 'negative' },
+    ],
+    notes: 'Very limited free tier. Pro required for real use.',
+  },
+  {
+    id: 'slidesai',
+    name: 'SlidesAI',
+    description: 'Turn text into professional presentations instantly with AI.',
+    category: 'Presentations',
+    url: 'https://slidesai.io',
+    status: 'verified',
+    lastTested: '2026-02-06',
+    requiresCreditCard: false,
+    usageLimits: [
+      { metric: 'Presentations', limit: '3', period: 'per month' },
+      { metric: 'Slides', limit: '2500 chars', period: 'per pres' },
+    ],
+    pricingHistory: [
+      { date: '2024-01-01', description: 'Free tier launched', type: 'positive' },
+    ],
+    notes: 'Works as Google Slides add-on.',
+  },
+  {
+    id: 'tome-ai',
+    name: 'Tome',
+    description: 'AI-native storytelling format. Create presentations with AI.',
+    category: 'Presentations',
+    url: 'https://tome.app',
+    status: 'verified',
+    lastTested: '2026-02-06',
+    requiresCreditCard: false,
+    usageLimits: [
+      { metric: 'AI Credits', limit: '500', period: 'total' },
+      { metric: 'Pages', limit: 'Unlimited', period: 'always' },
+    ],
+    pricingHistory: [
+      { date: '2024-06-01', description: 'Credit system introduced', type: 'neutral' },
+    ],
+    notes: 'Modern presentation format. Generous free credits.',
+  },
+
+  // === SPREADSHEETS ===
+  {
+    id: 'rows-ai',
+    name: 'Rows',
+    description: 'AI-powered spreadsheet with built-in integrations and automation.',
+    category: 'Spreadsheets',
+    url: 'https://rows.com',
+    status: 'verified',
+    lastTested: '2026-02-06',
+    requiresCreditCard: false,
+    usageLimits: [
+      { metric: 'AI queries', limit: '100', period: 'per month' },
+      { metric: 'Rows', limit: '5000', period: 'per sheet' },
+    ],
+    pricingHistory: [
+      { date: '2025-01-01', description: 'AI features added to free tier', type: 'positive' },
+    ],
+    notes: 'Great for data analysis with AI.',
+  },
+  {
+    id: 'sheetai',
+    name: 'SheetAI',
+    description: 'AI assistant for Google Sheets. Generate formulas and content.',
+    category: 'Spreadsheets',
+    url: 'https://sheetai.app',
+    status: 'verified',
+    lastTested: '2026-02-06',
+    requiresCreditCard: false,
+    usageLimits: [
+      { metric: 'AI calls', limit: '20', period: 'per month' },
+      { metric: 'Functions', limit: 'All', period: 'always' },
+    ],
+    pricingHistory: [
+      { date: '2024-01-01', description: 'Free tier launched', type: 'positive' },
+    ],
+    notes: 'Google Sheets add-on.',
+  },
+  {
+    id: 'formulabot',
+    name: 'FormulaBot',
+    description: 'AI Excel formula generator. Convert text to formulas instantly.',
+    category: 'Spreadsheets',
+    url: 'https://formulabot.com',
+    status: 'verified',
+    lastTested: '2026-02-06',
+    requiresCreditCard: false,
+    usageLimits: [
+      { metric: 'Formulas', limit: '5', period: 'per month' },
+      { metric: 'Explanations', limit: '5', period: 'per month' },
+    ],
+    pricingHistory: [
+      { date: '2025-01-01', description: 'Free limit reduced', type: 'negative' },
+    ],
+    notes: 'Works with Excel and Google Sheets.',
+  },
+
+  // === PDF TOOLS ===
+  {
+    id: 'chatpdf',
+    name: 'ChatPDF',
+    description: 'Chat with any PDF using AI. Ask questions, get summaries.',
+    category: 'PDF Tools',
+    url: 'https://chatpdf.com',
+    status: 'verified',
+    lastTested: '2026-02-06',
+    requiresCreditCard: false,
+    usageLimits: [
+      { metric: 'PDFs', limit: '2', period: 'per day' },
+      { metric: 'Pages', limit: '120', period: 'per PDF' },
+      { metric: 'Questions', limit: '50', period: 'per day' },
+    ],
+    pricingHistory: [
+      { date: '2024-01-01', description: 'Free tier maintained', type: 'positive' },
+    ],
+    notes: 'Best free PDF chat tool.',
+  },
+  {
+    id: 'pdf-ai',
+    name: 'PDF.ai',
+    description: 'AI-powered PDF reader. Summarize and chat with documents.',
+    category: 'PDF Tools',
+    url: 'https://pdf.ai',
+    status: 'verified',
+    lastTested: '2026-02-06',
+    requiresCreditCard: false,
+    usageLimits: [
+      { metric: 'Pages', limit: '100', period: 'per doc' },
+      { metric: 'Questions', limit: '50', period: 'per day' },
+    ],
+    pricingHistory: [
+      { date: '2024-06-01', description: 'Free tier expanded', type: 'positive' },
+    ],
+    notes: 'Clean interface for PDF analysis.',
+  },
+  {
+    id: 'smallpdf',
+    name: 'Smallpdf',
+    description: 'All-in-one PDF tools with AI features. Compress, convert, edit.',
+    category: 'PDF Tools',
+    url: 'https://smallpdf.com',
+    status: 'verified',
+    lastTested: '2026-02-06',
+    requiresCreditCard: false,
+    usageLimits: [
+      { metric: 'Tasks', limit: '2', period: 'per day' },
+      { metric: 'AI Chat', limit: 'Limited', period: 'always' },
+    ],
+    pricingHistory: [
+      { date: '2025-01-01', description: 'AI features added', type: 'positive' },
+    ],
+    notes: 'Limited free use but quality tools.',
+  },
+
+  // === RESUME & CV ===
+  {
+    id: 'resumeai-kickresume',
+    name: 'Kickresume',
+    description: 'AI resume builder with professional templates and content suggestions.',
+    category: 'Resume & CV',
+    url: 'https://kickresume.com',
+    status: 'verified',
+    lastTested: '2026-02-06',
+    requiresCreditCard: false,
+    usageLimits: [
+      { metric: 'Resumes', limit: '1', period: 'always' },
+      { metric: 'AI writes', limit: '5', period: 'total' },
+    ],
+    pricingHistory: [
+      { date: '2024-01-01', description: 'Free tier maintained', type: 'positive' },
+    ],
+    notes: 'Beautiful templates. Limited AI on free.',
+  },
+  {
+    id: 'resumeworded',
+    name: 'Resume Worded',
+    description: 'AI resume scorer and optimizer. Get instant feedback.',
+    category: 'Resume & CV',
+    url: 'https://resumeworded.com',
+    status: 'verified',
+    lastTested: '2026-02-06',
+    requiresCreditCard: false,
+    usageLimits: [
+      { metric: 'Reviews', limit: '5', period: 'total' },
+      { metric: 'Score', limit: 'Included', period: 'always' },
+    ],
+    pricingHistory: [
+      { date: '2024-01-01', description: 'Free reviews added', type: 'positive' },
+    ],
+    notes: 'Great for ATS optimization.',
+  },
+  {
+    id: 'rezi-ai',
+    name: 'Rezi',
+    description: 'AI resume builder optimized for ATS. Free basic tier.',
+    category: 'Resume & CV',
+    url: 'https://rezi.ai',
+    status: 'verified',
+    lastTested: '2026-02-06',
+    requiresCreditCard: false,
+    usageLimits: [
+      { metric: 'Resumes', limit: '1', period: 'always' },
+      { metric: 'AI Content', limit: 'Limited', period: 'always' },
+    ],
+    pricingHistory: [
+      { date: '2024-06-01', description: 'Free tier restrictions added', type: 'negative' },
+    ],
+    notes: 'Focus on ATS-friendly formatting.',
+  },
+
+  // === DOCUMENT AI ===
+  {
+    id: 'notion-ai',
+    name: 'Notion AI',
+    description: 'AI writing assistant built into Notion. Limited free trial.',
+    category: 'Document AI',
+    url: 'https://notion.so',
+    status: 'caution',
+    lastTested: '2026-02-06',
+    requiresCreditCard: false,
+    usageLimits: [
+      { metric: 'AI Responses', limit: '20', period: 'trial' },
+      { metric: 'After trial', limit: 'Paid only', period: 'always' },
+    ],
+    pricingHistory: [
+      { date: '2024-01-01', description: 'Free trial reduced', type: 'negative' },
+    ],
+    notes: 'Limited free trial. Paid for continued use.',
+  },
+  {
+    id: 'docsgpt',
+    name: 'DocsGPT',
+    description: 'Open-source AI documentation assistant. Self-host or use cloud.',
+    category: 'Document AI',
+    url: 'https://docsgpt.co',
+    status: 'verified',
+    lastTested: '2026-02-06',
+    requiresCreditCard: false,
+    usageLimits: [
+      { metric: 'Queries', limit: 'Unlimited', period: 'self-hosted' },
+      { metric: 'Cloud', limit: '100', period: 'per month' },
+    ],
+    pricingHistory: [
+      { date: '2024-01-01', description: 'Open source release', type: 'positive' },
+    ],
+    notes: 'Best for technical documentation.',
+  },
+
+  // === MEETING NOTES ===
+  {
+    id: 'otter-ai',
+    name: 'Otter.ai',
+    description: 'AI meeting transcription and notes. Automatic summaries.',
+    category: 'Meeting Notes',
+    url: 'https://otter.ai',
+    status: 'verified',
+    lastTested: '2026-02-06',
+    requiresCreditCard: false,
+    usageLimits: [
+      { metric: 'Minutes', limit: '300', period: 'per month' },
+      { metric: 'Imports', limit: '3', period: 'lifetime' },
+    ],
+    pricingHistory: [
+      { date: '2025-01-01', description: 'Free minutes reduced from 600', type: 'negative' },
+    ],
+    notes: 'Industry leader. Generous free tier.',
+  },
+  {
+    id: 'fireflies-ai',
+    name: 'Fireflies.ai',
+    description: 'AI notetaker for meetings. Records, transcribes, summarizes.',
+    category: 'Meeting Notes',
+    url: 'https://fireflies.ai',
+    status: 'verified',
+    lastTested: '2026-02-06',
+    requiresCreditCard: false,
+    usageLimits: [
+      { metric: 'Credits', limit: '800', period: 'per month' },
+      { metric: 'Storage', limit: 'Unlimited', period: 'always' },
+    ],
+    pricingHistory: [
+      { date: '2024-06-01', description: 'Free tier improved', type: 'positive' },
+    ],
+    notes: 'Works with Zoom, Meet, Teams.',
+  },
+  {
+    id: 'tldv',
+    name: 'tl;dv',
+    description: 'Record, transcribe, and summarize meetings with AI.',
+    category: 'Meeting Notes',
+    url: 'https://tldv.io',
+    status: 'verified',
+    lastTested: '2026-02-06',
+    requiresCreditCard: false,
+    usageLimits: [
+      { metric: 'Recordings', limit: 'Unlimited', period: 'always' },
+      { metric: 'AI Summaries', limit: 'Unlimited', period: 'always' },
+    ],
+    pricingHistory: [
+      { date: '2024-01-01', description: 'Generous free tier launched', type: 'positive' },
+    ],
+    notes: 'Best unlimited free meeting recorder.',
+  },
+
+  // === EDUCATION ===
+  {
+    id: 'khanmigo',
+    name: 'Khanmigo',
+    description: 'AI tutor by Khan Academy. Personalized learning assistance.',
+    category: 'Education',
+    url: 'https://khanacademy.org/khan-labs',
+    status: 'verified',
+    lastTested: '2026-02-06',
+    requiresCreditCard: false,
+    usageLimits: [
+      { metric: 'Access', limit: 'Free for students', period: 'always' },
+      { metric: 'Features', limit: 'All', period: 'always' },
+    ],
+    pricingHistory: [
+      { date: '2025-01-01', description: 'Made free for all users', type: 'positive' },
+    ],
+    notes: 'Best free AI tutor for students.',
+  },
+  {
+    id: 'quillbot',
+    name: 'QuillBot',
+    description: 'AI paraphrasing and grammar tool for students and writers.',
+    category: 'Education',
+    url: 'https://quillbot.com',
+    status: 'verified',
+    lastTested: '2026-02-06',
+    requiresCreditCard: false,
+    usageLimits: [
+      { metric: 'Paraphrase', limit: '125 words', period: 'per use' },
+      { metric: 'Grammar', limit: 'Unlimited', period: 'always' },
+    ],
+    pricingHistory: [
+      { date: '2024-01-01', description: 'Free tier maintained', type: 'positive' },
+    ],
+    notes: 'Great free grammar checker.',
+  },
+
+  // === VOICE & SPEECH ===
+  {
+    id: 'elevenlabs-free',
+    name: 'ElevenLabs',
+    description: 'AI voice generation with realistic speech synthesis.',
+    category: 'Voice & Speech',
+    url: 'https://elevenlabs.io',
+    status: 'verified',
+    lastTested: '2026-02-06',
+    requiresCreditCard: false,
+    usageLimits: [
+      { metric: 'Characters', limit: '10,000', period: 'per month' },
+      { metric: 'Voices', limit: '3', period: 'custom' },
+    ],
+    pricingHistory: [
+      { date: '2025-01-01', description: 'Free limit reduced from 15k', type: 'negative' },
+    ],
+    notes: 'Best AI voice quality. Attribution required.',
+  },
+  {
+    id: 'murf-ai',
+    name: 'Murf AI',
+    description: 'AI voice generator for videos, presentations, and more.',
+    category: 'Voice & Speech',
+    url: 'https://murf.ai',
+    status: 'verified',
+    lastTested: '2026-02-06',
+    requiresCreditCard: false,
+    usageLimits: [
+      { metric: 'Minutes', limit: '10', period: 'total' },
+      { metric: 'Voices', limit: '120+', period: 'to try' },
+    ],
+    pricingHistory: [
+      { date: '2024-01-01', description: 'Free trial available', type: 'positive' },
+    ],
+    notes: 'Limited free trial. Professional quality.',
+  },
 ];
 
 export const categories = [

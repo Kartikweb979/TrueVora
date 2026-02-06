@@ -18,10 +18,11 @@ export const Hero = () => {
 
           {/* Main heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 animate-slide-up">
-            The <span className="gradient-text">Free AI Tools</span>
-            <br />
-            <span className="text-foreground">Trust Layer</span>
+            <span className="gradient-text">TrustVora</span>
           </h1>
+          <p className="text-xl md:text-2xl text-muted-foreground mb-2 animate-slide-up">
+            The Free AI Tools Trust Layer
+          </p>
 
           {/* Subheading */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-8 animate-slide-up stagger-1">

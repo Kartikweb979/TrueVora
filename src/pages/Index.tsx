@@ -8,6 +8,7 @@ import { Methodology } from '@/components/Methodology';
 import { DeveloperContact } from '@/components/DeveloperContact';
 import { FeedbackForm } from '@/components/FeedbackForm';
 import { Footer } from '@/components/Footer';
+import { ScrollToBottom } from '@/components/ScrollToBottom';
 import { verifiedTools } from '@/data/tools';
 import { Tool } from '@/types/tool';
 import { Sparkles } from 'lucide-react';
@@ -119,6 +120,7 @@ const Index = () => {
       <FeedbackForm />
       <Methodology />
       <Footer />
+      <ScrollToBottom />
     </div>
   );
 };

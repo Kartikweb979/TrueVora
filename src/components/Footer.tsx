@@ -10,8 +10,8 @@ export const Footer = () => {
               <Shield className="h-5 w-5 text-white" />
             </div>
             <div>
-              <div className="font-semibold text-foreground font-display">
-                Free AI Tools Trust Layer
+            <div className="font-semibold text-foreground font-display text-lg">
+              TrustVora
               </div>
               <div className="text-sm text-muted-foreground">
                 Independent verification since 2026

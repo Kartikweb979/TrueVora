@@ -6,8 +6,8 @@ export const Footer = () => {
       <div className="container">
         <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
           <div className="flex items-center gap-3">
-            <div className="rounded-xl bg-gradient-to-r from-primary to-pink-500 p-2.5">
-              <Shield className="h-5 w-5 text-white" />
+            <div className="rounded-xl bg-gradient-to-r from-primary to-verified p-2.5 transition-transform duration-300 ease-smooth hover:scale-110">
+              <Shield className="h-5 w-5 text-primary-foreground" />
             </div>
             <div>
             <div className="font-semibold text-foreground font-display text-lg">
@@ -24,14 +24,14 @@ export const Footer = () => {
               href="https://www.linkedin.com/in/kartik-gupta-0ba437377"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 rounded-lg bg-secondary/50 text-muted-foreground hover:text-foreground hover:bg-secondary transition-all"
+              className="p-2 rounded-lg bg-secondary/50 text-muted-foreground hover:text-foreground hover:bg-secondary transition-all duration-300 ease-smooth hover:scale-110 press-effect"
               aria-label="LinkedIn"
             >
               <Linkedin className="h-5 w-5" />
             </a>
             <a
               href="mailto:kartikgupta.rke@gmail.com"
-              className="p-2 rounded-lg bg-secondary/50 text-muted-foreground hover:text-foreground hover:bg-secondary transition-all"
+              className="p-2 rounded-lg bg-secondary/50 text-muted-foreground hover:text-foreground hover:bg-secondary transition-all duration-300 ease-smooth hover:scale-110 press-effect"
               aria-label="Contact"
             >
               <Mail className="h-5 w-5" />
@@ -42,7 +42,7 @@ export const Footer = () => {
         <div className="mt-6 pt-6 border-t border-border/50 text-center">
           <p className="text-muted-foreground text-sm max-w-xl mx-auto">
             This platform accepts <span className="text-primary font-medium">no advertising</span>, affiliate payments, or paid placements.
-            Built with <Heart className="inline h-3 w-3 text-pink-500 mx-1" /> for developers and students.
+            Built with <Heart className="inline h-3 w-3 text-accent mx-1 animate-pulse" /> for developers and students.
           </p>
           
           <div className="mt-4 flex flex-wrap justify-center gap-4 text-xs text-muted-foreground">

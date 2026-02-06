@@ -4,9 +4,9 @@ export const Hero = () => {
   return (
     <section className="relative py-10 md:py-14 overflow-hidden">
       {/* Animated background */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/20 via-background to-background" />
-      <div className="absolute top-20 left-1/4 w-72 h-72 bg-primary/30 rounded-full blur-[100px] animate-pulse" />
-      <div className="absolute bottom-20 right-1/4 w-72 h-72 bg-accent/20 rounded-full blur-[100px] animate-pulse" style={{ animationDelay: '1s' }} />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/15 via-background to-background" />
+      <div className="absolute top-20 left-1/4 w-72 h-72 bg-primary/20 rounded-full blur-[100px] animate-pulse" />
+      <div className="absolute bottom-20 right-1/4 w-72 h-72 bg-accent/15 rounded-full blur-[100px] animate-pulse" style={{ animationDelay: '1s' }} />
       
       <div className="container relative">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">

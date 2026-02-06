@@ -29,7 +29,7 @@ export const SearchFilters = ({
           placeholder="Search AI tools..."
           value={searchQuery}
           onChange={(e) => onSearchChange(e.target.value)}
-          className="pl-12 pr-4 h-14 text-lg glass border-border/50 focus:border-primary/50 rounded-xl"
+          className="pl-12 pr-4 h-14 text-lg glass border-border/50 focus:border-primary/50 rounded-xl transition-all duration-300 ease-smooth focus:shadow-glow"
         />
       </div>
 
@@ -43,10 +43,10 @@ export const SearchFilters = ({
         <button
           onClick={() => onNoCreditCardChange(!noCreditCard)}
           className={cn(
-            'flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium transition-all duration-200',
+            'flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium transition-all duration-300 ease-smooth press-effect',
             noCreditCard
-              ? 'bg-verified/20 text-verified border border-verified/50'
-              : 'glass text-muted-foreground hover:text-foreground border border-transparent'
+              ? 'bg-verified/20 text-verified border border-verified/50 shadow-md'
+              : 'glass text-muted-foreground hover:text-foreground border border-transparent hover:scale-105'
           )}
         >
           <CreditCard className="h-4 w-4" />
@@ -56,10 +56,10 @@ export const SearchFilters = ({
         <button
           onClick={() => onUnlimitedUsageChange(!unlimitedUsage)}
           className={cn(
-            'flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium transition-all duration-200',
+            'flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium transition-all duration-300 ease-smooth press-effect',
             unlimitedUsage
-              ? 'bg-primary/20 text-primary border border-primary/50'
-              : 'glass text-muted-foreground hover:text-foreground border border-transparent'
+              ? 'bg-primary/20 text-primary border border-primary/50 shadow-md'
+              : 'glass text-muted-foreground hover:text-foreground border border-transparent hover:scale-105'
           )}
         >
           <Infinity className="h-4 w-4" />

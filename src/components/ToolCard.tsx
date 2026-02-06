@@ -11,15 +11,16 @@ type ToolCardProps = {
 
 export const ToolCard = ({ tool, index }: ToolCardProps) => {
   const statusStyles = {
-    verified: 'border-verified/30 hover:border-verified/50 hover:shadow-[0_0_30px_-5px_hsla(150,80%,45%,0.3)]',
+    verified: 'border-verified/30 hover:border-verified/50 hover:shadow-[0_0_30px_-5px_hsla(160,75%,42%,0.3)]',
     caution: 'border-caution/30 hover:border-caution/50',
     flagged: 'border-flagged/30 hover:border-flagged/50',
+    pending: 'border-muted/30 hover:border-muted/50',
   };
 
   return (
     <article
       className={cn(
-        'glass rounded-2xl p-6 transition-all duration-300 hover:scale-[1.02] animate-fade-in border',
+        'glass rounded-2xl p-6 transition-all duration-500 ease-smooth hover:scale-[1.02] hover:-translate-y-1 animate-fade-in border',
         statusStyles[tool.status]
       )}
       style={{ animationDelay: `${Math.min(index * 0.05, 0.5)}s` }}
@@ -41,7 +42,7 @@ export const ToolCard = ({ tool, index }: ToolCardProps) => {
           href={tool.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="shrink-0 p-2 rounded-lg bg-secondary/50 text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all"
+          className="shrink-0 p-2 rounded-lg bg-secondary/50 text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300 ease-smooth press-effect"
           aria-label={`Visit ${tool.name}`}
         >
           <ExternalLink className="h-4 w-4" />
